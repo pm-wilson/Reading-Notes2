@@ -96,3 +96,56 @@
 1. The value of this is the object before the dot, the one used to call the method.
 2. The rule is simple: if obj.f() is called, then this is obj during the call of f.
 3. Arrow functions don't have their own this
+
+### Due 8/5/20
+
+- Responsive Web Design (https://learn.shayhowe.com/advanced-html-css/responsive-web-design/):
+
+1. RWD is building websites suitable to all users
+2. Rather than building separate sites for mobile, building a site that can adapt to mobile is a better idea.
+3. CSS can adapt to screen size with vw, vh, vmin and vmax
+4. target / context = result
+5. Percentage and em can keep the page more flexible.
+6. Media querys @media can tell css to use specific styles for specific screen sizes, orientations, ratios, resolution, and others.
+7. Mobile first suggests building sites for mobile, and changing the styles if the screen is bigger to speed up mobile browsing.
+
+- CSS Tricks Floats (https://css-tricks.com/all-about-floats/):
+
+1. Float is a CSS position
+2. A picture can float left of a text or right and the text will float around it. If text wrap is ignored the text continues over the picture.
+3. Floated elements remain a part of the flow of the page, unlike absolutley positioned elements.
+4. Clear will move the element down past the float, and takes left, right, both, none, inherit.
+5. A parent element with only floats will collapse. To fix strange layout issues clear the float after the floated elements in the container, but before the close of the container.
+6. Other method for clearing floats is the Empty Div, Overflow, clear:both.
+7. Pushdowns can be fixed if the item inside the float is bigger than the container, overflow:hidden can fix this. Display: inline can fix a double margin in IE6. 3px Jog on text can be fixed by setting a width or height on the text. IE7 needs bottom padding instead of bottom margin.
+
+-Grids (https://css-tricks.com/dont-overthink-it-grids/):
+
+1. A block level element is as wide as its parent.
+2. Start by setting the columns by their width and naming them well.
+3. The parent will collapse so will need to be set to this: .grid:after{content:""; display:table; clear:both;}
+4. Use box sizing: border-box for gutters
+5. Then apply fixed padding to the right side of all but the last column.
+
+- CSS Floats (https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/);
+
+1. Floats create alternate flows, left and right. This allows the normal flow of elements to fill in the spaces around the floats.
+2. Clear: both will block everything else so it doesnt get by.
+
+- SMACSS Official Documentation (http://smacss.com/);
+
+1. Base Rules are added to elements to define the default styling of the element. Resets should be used to strip out the defaults.
+2. In the layout styles try to stick to classes, id styling can get complicated due to increasing specifictiy.
+3. Element selectors can be used with child or descendent selectors.
+4. State styles augment and override all other styles.
+5. Themes and Typography styles should be grouped.
+6. State changes are either class names, pseudo-class, media query.
+7. Be careful when heavily relying on a defined HTML structure and if the HTML depth is too deep.
+8. To speed things up use child selectors, avoid tag selectors for common elements, use class names as the right-most selector.
+9. Prototype goals are to show states, review localization, isolate dependencies.
+10. A preprocessor can let you use special syntax for css. They have useful features like variables, operations, mixins, nesting, functions, interpolation, file importing, extending.
+11. Elements not used very often should still avoid being styled, they might be used in the future again.
+12. Icon pictures can use sprites to reposition the background and show different pictures to minimize resources.
+13. Inheritance can get complicated very quickly
+14. To apply the principals use naming conventions that clarify purpose, ensure the CSS only affects the element it is supposed to, and reduce the depth of applicability
+15. Avoid content specific context and name things flexibly.
