@@ -149,3 +149,103 @@
 13. Inheritance can get complicated very quickly
 14. To apply the principals use naming conventions that clarify purpose, ensure the CSS only affects the element it is supposed to, and reduce the depth of applicability
 15. Avoid content specific context and name things flexibly.
+
+### Due 8/6/20
+
+- MDN URL Search Params.toString() (https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/toString):
+
+1. The URLSearchParams toString() method returns a query string suitable for use in a URL.
+
+- URLSearchParams.toString() (https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/toString):
+
+1. same as above document.
+
+- Built-in Loctaion Object (https://developer.mozilla.org/en-US/docs/Web/API/Location):
+
+1. Location represents the URL of the object it is linked to. This works with the window and document.
+
+- Hash change event (https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event):
+
+1. The hashchange event happens when the fragment identifier of the URL has changed (the part that begins and ends with #)
+
+- RegExr (https://regexr.com/):
+
+1. An interactive app to help figure out how to reference text.
+
+- Regex Tutorial (https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285):
+
+1. Shows a handy guide to referencing text.
+2. Helpful for data validation, scraping, wrangling, string parsing, replacement, syntax highlighting.
+
+- Regex 101 (https://regex101.com/):
+
+1. An interactive app to find ways to reference expressions.
+
+- On Callbacks (https://flaviocopes.com/javascript-callbacks/):
+
+1. Computers can typically only do one thing at once and interrupt other processes often and quickly to make it seem like multiple things happen at once.
+2. JavaScript only does one thing at a time by default, but the browser provides APIs that can handle doing multiple things at a time.
+3. The first callback in any callback is the error, which will be null as long as there is no error.
+4. This callback nesting can complicate code and alternitaves include Promises and Async/Await.
+
+- MDN on Asynchronous (https://flaviocopes.com/javascript-promises/):
+
+1. A promise is considered a value that will eventually become available.
+2. Promises start out in a pending state, which will eventually become a resolved or rejected state.
+3. In JavaScript Battery, Fetch and Service Workers use promises.
+4. Promises can be returned to other promises creating a chain.
+5. If anything in the chain of promises fails and raises an error or gets rejected the control goes to the nearest catch() down the chain.
+6. Promise.All() lets you define a list of promises and invoke something when they are all resolved.
+7. Promise.Race() will run something when the first of the listed promises is resolved.
+
+- Intro (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous):
+
+1. It can be difficult working asynchronously because you dont know how long it will take to get the data.
+2. Async callbacks will excecute code in the background and once done it will call the callback function.
+3. Promises are the new style. It will run the then() blocks when the data comes back and run the catch() if there is an issue.
+4. Promises are made for asynchronous opearations and can handle more complex data calls easier. They are always called in the strict order they are placed. Error handling is much better. They avoid inversion of control when dealing with a third party library.
+
+- Promises (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing):
+
+1. A promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.
+
+- MDN Using PRomises (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises):
+
+1. Promises handle things better when multiple things need to happen at once in a specific order.
+2. Promises guarantee callbacks will never be called before the completion of the current run of the JavaScript event loop, callbacks added with then() will be called even after the success or failure of the operation, multiple callbacks can be added by calling then() on each and they will be invoked in order.
+3. It is possible to chain after a failure.
+4. Simple promise chains are best kept flat without nesting.
+5. Mistakes to avoid include not returning something which breaks the chain, nesting uncecessarily can lead to uncaught errors, forgetting to terminate chains with catch() lead to uncaught promise rejections.
+6. Best to either return or terminate promise chains, and return a new promise immediately to flaten things out.
+
+- Video on Promises and Fetch (https://www.youtube.com/watch?v=IHjzyhjKxtc):
+
+1. Fetch gets data from APIs.
+2. fetch('url').then(function(response) {
+   console.log or return(response.JSON())
+   }).then(function(response) {
+   console.log or return(response)
+   }).catch(function(error) {
+   console.log(error)
+   })
+
+- Promises in 20 Minutes (https://medium.com/quick-code/javascript-promises-in-twenty-minutes-3aac5b65b887):
+
+1. Promises are easier to debugg than the nesting pyramid of doom
+
+- Google Developer on Promises (https://web.dev/promises/):
+
+1. Async wont do a good job of catching errors that happened before the last one.
+2. A promise can be fulfilled, rejected, pending, settled
+3. JavaScript promises are compatable with Q promises.
+4. Promises offer the best in parallelism and sequencing.
+
+- MDN using fetch (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch):
+
+1. Fetch makes a url request and returns a promise. The promise resolves with a response object. We call a response method to read the body of the response.
+2. Along with getting data, Fetch can also post and do other actions with data.
+
+- Fetching data (https://itnext.io/that-data-looks-so-fetching-on-you-understanding-the-js-fetch-api-880eae0c8d25):
+
+1. The fetch promise wont reject on HTTP error status, just on network failure. Fetch can receive cross site cookies. Fetch can send cookies if you set the credentials init option.
+2. The Headers() constructor lets you create your own headers. This can be good to check the type of data you are receiving.
