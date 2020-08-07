@@ -249,3 +249,36 @@
 
 1. The fetch promise wont reject on HTTP error status, just on network failure. Fetch can receive cross site cookies. Fetch can send cookies if you set the credentials init option.
 2. The Headers() constructor lets you create your own headers. This can be good to check the type of data you are receiving.
+
+### Due 8/7/20
+
+- Heroku: Getting Started with Node (https://devcenter.heroku.com/articles/getting-started-with-nodejs):
+
+1. Instructions on how to setup and get started with Heroku, installing a starter app, and add ons.
+2. Unable to deploy the app, the page says to run 'heroku create' in the console in the newly created cloned repo, but I get a heroku: command not found.
+
+- Deploying a Simple Blog to Heroku (https://howtonode.org/deploy-blog-to-heroku):
+
+1. I will get this going once I get through the installation steps.
+
+- Problem Solving Skills (https://ryanstutorials.net/problem-solving-skills/):
+
+1. Being a good problem solver includes being open minded, inquisitive, asking the right questions. Slowing down, not beign lazy and not panicing are also important.
+2. The process includes assessing the situation, creating a hypothesis, and testing it.
+3. Understanding the relationship between things, and breaking the problem down into smaller pieces helps.
+4. When thinking about something complex, think of 3 solutions before getting started. Share them with an uninterested observer.
+
+- Improve Critical Thinking (https://hbr.org/2019/05/3-simple-habits-to-improve-your-critical-thinking):
+
+1. Good critical thinking includes questioning assumptions, reasoning through logic, and diversifying thought.
+
+- Asking Great Questions (https://hbr.org/2018/05/the-surprising-power-of-questions):
+
+1. It is important to be a good listener when asking questions.
+2. Research shows conversations are for learning and liking.
+3. Asking a lot of questions does both.
+4. Keep follow up questions.
+5. Know when to use openended questions.
+6. Ask tough questions first to open people up.
+7. use the right tone and pay attention to group dynamics.
+8.
