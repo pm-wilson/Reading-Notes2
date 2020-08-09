@@ -281,4 +281,19 @@
 5. Know when to use openended questions.
 6. Ask tough questions first to open people up.
 7. use the right tone and pay attention to group dynamics.
-8.
+
+### Due 8/10/20
+
+- Node Express (https://www.sitepoint.com/an-introduction-to-node-js/):
+
+1. Node is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+2. Node is an event-based, non blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library.
+
+3. Node programs are like JavaScript in browsers, but is a run time on a computer.
+
+4. Rather than installing node binaries for your system, you can install a version manager that can use different versions for different applications.
+
+5. Node.js lets us run JavaScript on a server. It handles requests asynchronously, but unhandled errors can cause big problems.
+
+6. Node is particulary suited to build apps that need real time interaction like chats.
