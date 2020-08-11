@@ -297,3 +297,51 @@
 5. Node.js lets us run JavaScript on a server. It handles requests asynchronously, but unhandled errors can cause big problems.
 
 6. Node is particulary suited to build apps that need real time interaction like chats.
+
+### Due 8/10/20
+
+- How I explained REST to my brother
+
+1. REST is the resource system that shares information between computers.
+
+2. It is a common language with common verbs and nouns that all computers on the web can share.
+
+3. The more information resources that keep information easy to share to comptuers, the more connected things can get.
+
+- Documentation for SuperAgent (https://visionmedia.github.io/superagent/):
+
+1. SuperAgent is an Ajax API crafted for flexibility, readability and low learning curve. It also works with Node.
+
+2. A request can be made by invoking the appropriate method on the request object, then calling .then() or .end() or await to send the request.
+
+3. Absolute URLs can be used. In web browsers absolute URLs work only if the server implements CORS.
+
+4. Along with get, delete, head, patch, post, and put can be used. Get is the default and can be simplified to: request('/search', (err, res) => {});
+
+5. Header fields can be set with .set(fieldName, value). several fields can be set in a single call .set({'API-Key': 'foobar', Accept: 'application/json'})
+
+6. The .query() method when used with .get() will form a query string.
+
+7. You can also use query on head requests to get the path.
+
+8. Post can be used to add to the url.
+
+9. With retry, SuperAgent will retry requests automatically if it was a network problem. Not to be used if hitting the server multiple times can have undesired side effects.
+
+10. On the response object, you get the body as unparsed text, if a parser is defined, it will be automatically parsed. Header contains the header fields, content-type will show the type and char set. Various reponses status give information.
+
+11. Abort can stop requests and timeouts can be set to avoid waiting forever if the server gets stuck. Use long timeouts if you are uploading files.
+
+12. Basic authentication can be used by default, In browser you can add {type:auto} to inable more that might be built into the browser.
+
+13. Cookies are not saved by default, but .agent() can be used to do so.
+
+14. Files can be sent using .attach()
+
+15. Browsers block cross origin requsts for security. CORS an be used to change this.
+
+16. Error callbacks get two arguments: error and response.
+
+17. Progress events are fired for upload and downloads of large files.
+
+- API Keys Downloaded!
