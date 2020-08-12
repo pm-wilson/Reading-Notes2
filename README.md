@@ -345,3 +345,15 @@
 17. Progress events are fired for upload and downloads of large files.
 
 - API Keys Downloaded!
+
+### Due 8/12/20
+
+- Complete SQL Bolt (https://sqlbolt.com/)
+
+1. SQL tables hold various amounts of rows of related data. SQL is the language that lets us interact with and modify these tables.
+
+2. All Exercises Complete
+
+- SQL Practice on W3 Schools (https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
+
+- SQL Resources Downloaded and Reviewed
