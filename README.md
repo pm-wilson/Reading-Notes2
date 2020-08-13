@@ -357,3 +357,31 @@
 - SQL Practice on W3 Schools (https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
 
 - SQL Resources Downloaded and Reviewed
+
+### Due 8/13/20
+
+- Complete SQL Bolt ():
+
+1. Completed
+
+- Database Normalization Explained in Simple English (https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/):
+
+1. Data normalization is a process used to organize a database into tables and columns. A table should be only about a topic and supporting topics.
+
+2. Columns should have unique names and rows should have a unique key.
+
+3. Having tables track multiple things can introduce duplicate data, data update issues and increased effort to query.
+
+4. The First Normal form is the information is stored in a relational table with each column containing atomic values with no repeating groups of columns.
+
+5. The second is the table is in first normal form and all the columns depend on the tables primary key.
+
+6. The third is the table is in second normal form and all its columns are not transitively dependent on the primary key.
+
+- Visual Guide to SQL Joins (https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins):
+
+1. Reviewed
+
+- A Primer on SQL (https://ia801302.us.archive.org/6/items/aprimeronsql/aprimeronsql.pdf):
+
+1. Reference Downloaded and reviewed
