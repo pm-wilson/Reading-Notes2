@@ -385,3 +385,36 @@
 - A Primer on SQL (https://ia801302.us.archive.org/6/items/aprimeronsql/aprimeronsql.pdf):
 
 1. Reference Downloaded and reviewed
+
+### Due 8/18/20
+
+- Video link (https://www.youtube.com/playlist?list=PL4cUxeGkcC9g5_p_BVUGWykHfqx6bb7qK):
+
+- Styling HTML 5 Forms #1:
+
+1. Each label has a for='example' attribute
+
+- Styling HTML 5 Forms #2:
+
+1. input:checked + Label[for='example']
+2. Sprites can be used for custom radio buttons after originals are hidden.
+3. Hide with opacity:0, height:0, width: 0
+
+- Styling HTML 5 Forms #3:
+
+1. Similar styling for checkboxes
+
+- Styling HTML 5 Forms #4:
+
+1. Input boxes can be selected by type (input[type="email"])
+2. They can also have a background image like and envelope or phone emblem, use no-repeat;
+3. Padding can make room for the emblems
+
+- Styling HTML 5 Forms #5:
+
+4. Emblems like little arrows can be used on a select box.
+
+- Styling HTML 5 Forms #6:
+
+5. required attributes can be used.
+6. Once an item is required, the input[type="email"]:valid can be used.
