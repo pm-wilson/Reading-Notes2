@@ -418,3 +418,9 @@
 
 5. required attributes can be used.
 6. Once an item is required, the input[type="email"]:valid can be used.
+
+### Due 8/20/20
+
+1. I think the hiking app that was discussed last time could work really well for this project. It could use a hiking api like we used in class and also a weather api for current conditions.
+
+2. A travel app might be cool, it could integrate a dictionary, public holiday, weather and map apis and save locations for users.
