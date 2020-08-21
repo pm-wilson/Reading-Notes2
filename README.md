@@ -424,3 +424,29 @@
 1. I think the hiking app that was discussed last time could work really well for this project. It could use a hiking api like we used in class and also a weather api for current conditions.
 
 2. A travel app might be cool, it could integrate a dictionary, public holiday, weather and map apis and save locations for users.
+
+### Due 8/21/20
+
+- Silicon Valley’s gender gap is the result of computer-game marketing 20 years ago (https://qz.com/911737/silicon-valleys-gender-gap-is-the-result-of-computer-game-marketing-20-years-ago/):
+
+1. Back in the 1980's the computer/console industry marketed to boys more, so more boys bought into computers.
+
+2. Boys would play more games, and had more games made for them.
+
+3. Even when women gained experience, they faced constant barriers to a career with how teachers and employers felt, and often felt excluded from buddy groups.
+
+- Diversity in Tech (https://informationisbeautiful.net/visualizations/diversity-in-tech/):
+
+1. Most tech companies are mostly white male. Indiegogo had the most women at 50% and Nvidia had the least whites at 37%.
+
+- Why Diversity Matters (https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-your-tech-company/30419871/):
+
+1. Diverse teams are smarter and more creative.
+
+2. Diverse companies perform better on average.
+
+3. Diverse companies can better serve a diverse user base because more diversity will be built into the product.
+
+4. It's the Right thing to do.
+
+5. Companies lose out on great talent if they dont tap into under represented backgrounds.
